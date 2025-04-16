@@ -3,6 +3,9 @@ INPUT="content"
 OUTPUT="html"
 MDFLAVOR=
 TEMPLATE="template"
+
+rm -rf $OUTPUT/*
+
 cp -rv $INPUT/* $OUTPUT/
 
 for file in $(find $OUTPUT -type f -name "*.md" -print)
