@@ -5,8 +5,7 @@ RUN apt-get update && \
     apt-get clean
 
 COPY script/simpleStaticSites.sh /usr/local/bin/sssScript/
-COPY script/templates/ /usr/local/bin/sssScript/templates/
-RUN mkdir /usr/local/bin/sssScript/html && mkdir /usr/local/bin/sssScript/content
+RUN mkdir /usr/local/bin/sssScript/html && mkdir /usr/local/bin/sssScript/content && /usr/local/bin/sssScript/templates/
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
