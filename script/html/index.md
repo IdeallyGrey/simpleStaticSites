@@ -1,9 +1,8 @@
 ---
-title:  'This is the title: it contains a colon'
+title:  'My awesome article'
 author:
-- Author One
-- Author Two
+- Anon
 keywords: [nothing, nothingness]
 ---
 
-hello!
+Welcome!
