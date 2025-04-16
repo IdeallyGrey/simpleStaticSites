@@ -1,3 +1,6 @@
-/script/content/*
-/script/html/*
-/script/templates/*
+/script/content/
+!/script/content/.gitkeep
+/script/html/
+!/script/html/.gitkeep
+/script/templates/
+!/script/templates/.gitkeep
